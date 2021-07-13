@@ -112,28 +112,28 @@ float alpha = 1.00;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#101010", /* black */ /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#d03030", /* red */
-	"#30d030", /* green */
-	"#d0d030", /* yellow */
-	"#3030d0", /* blue */
-	"#d030d0", /* magenta */
-	"#30d0d0", /* cyan */
-	"#d0d0d0", /* white */
-	"#303030", /* light black */
-	"#f06060", /* light red */
-	"#60f060", /* light green */
-	"#f0f060", /* light yellow */
-	"#6060f0", /* light blue */
-	"#f060f0", /* light magenta */
-	"#60f0f0", /* light cyam */
-	"#f0f0f0", /* light white */
+	"#000000", /* black */ /* hard contrast: #1d2021 / soft contrast: #32302f */
+	"#ff0000", /* red */
+	"#00ff00", /* green */
+	"#ffff00", /* yellow */
+	"#0000ff", /* blue */
+	"#ff00ff", /* magenta */
+	"#00ffff", /* cyan */
+	"#888888", /* white */
+	"#333333", /* light black */
+	"#ff8888", /* light red */
+	"#88ff88", /* light green */
+	"#ffff88", /* light yellow */
+	"#8888ff", /* light blue */
+	"#ff88ff", /* light magenta */
+	"#88ffff", /* light cyam */
+	"#cccccc", /* light white */
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#d0d0d0", /* 256 -> cursor */
-	"#303030", /* 257 -> rev cursor*/
-	"#101010", /* 258 -> bg */
-	"#d0d0d0", /* 259 -> fg */
+	"#dddddd", /* 256 -> cursor */
+	"#444444", /* 257 -> rev cursor*/
+	"#000000", /* 258 -> bg */
+	"#dddddd", /* 259 -> fg */
 };
 
 
